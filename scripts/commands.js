@@ -1,4 +1,4 @@
-let commands = {
+const commands = {
     "about": `Hello,<br />
     I am Mathew Sjoquist. I enjoy reading, playing games, and solving puzzles.
     `,

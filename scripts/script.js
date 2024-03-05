@@ -1,4 +1,4 @@
-import commands from "commands.js";
+import commands from "./commands.js";
 
 let elements = {
     "output": document.getElementById("output"),
