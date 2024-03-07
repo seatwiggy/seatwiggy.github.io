@@ -10,10 +10,10 @@ function runCommand(event) {
         return;
     }
 
-    let command = elements.prompt.value;
+    let input = elements.prompt.value;
     elements.prompt.value = "";
-    command = command.toLowerCase().split(/\s+/);
+    input = input.toLowerCase().split(/\s+/);
 
-    elements.output.innerHTML += `<p>${command}</p>`;
-    elements.output.innerHTML += `<p>${commands[command[0]]}</p>`;
+    elements.output.innerHTML += `<p>${input}</p>`;
+    elements.output.innerHTML += `<p>${commands[input[0]]}</p>`;
 }

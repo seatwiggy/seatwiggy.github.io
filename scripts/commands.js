@@ -1,6 +1,7 @@
-const commands = {
+export default {
     "about": `Hello,<br />
-    I am Mathew Sjoquist. I enjoy reading, playing games, and solving puzzles.
+    I am Mathew Sjoquist. I enjoy reading, playing games, and solving puzzles.<br />
+    I earned my degree in Software Engineering from Neumont College of Computer Science in Salt Lake City, Utah.
     `,
     "skills": `{<br />
         "languages": ["Java", "JavaScript", "Python"],<br />
@@ -21,5 +22,3 @@ const commands = {
         "help": "This description",<br />
     }`,
 };
-
-export default commands;
