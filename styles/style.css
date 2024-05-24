@@ -1,4 +1,31 @@
 #console {
-    width: 50vw;
-    height: 50vh;
+	width: 50vw;
+	height: 50vh;
+	background-color: black;
+	color: green;
+	font-family: "VT323", monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+/* can change these to other colors you prefer */
+#output {
+	padding: 1%;
+}
+
+#skills {
+	color: #881798;
+}
+
+#about {
+	color: #c19c00;
+}
+
+#contact {
+	color: #0037da;
+}
+
+#help {
+	color: #c50f1f;
 }
