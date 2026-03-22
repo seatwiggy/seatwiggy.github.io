@@ -1,4 +1,32 @@
+@font-face {
+  font-family: JetBrainsMono;
+  src: url("../resources/JetBrainsMonoNerdFont-Regular.ttf");
+}
+
+body {
+  background: #111;
+  color: #eee;
+  font-family: JetBrainsMono, monospace;
+  text-align: center;
+}
+
 #console {
-    width: 50vw;
-    height: 50vh;
+  background: black;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  color: lime;
+  height: 50vh;
+  margin: auto;
+  overflow: auto;
+  padding: 1em;
+  text-align: left;
+  width: 50vw;
+}
+
+#console * {
+  overflow-anchor: none;
+}
+
+#console input {
+  overflow-anchor: auto;
 }
